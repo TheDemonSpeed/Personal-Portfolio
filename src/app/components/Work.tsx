@@ -50,7 +50,7 @@ const projects = [
     tag: "Next.js · React · MongoDB",
     desc: "Founding contributor — architected MVPs and platform layouts, owned real-time client resource allocation engine and led production deployment cycles.",
     img: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1400&h=900&fit=crop&auto=format",
-    year: "Active",
+    year: "2026",
   },
 ];
 

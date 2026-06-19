@@ -3,8 +3,8 @@ import { motion } from "motion/react";
 const exp = [
   {
     org: "AXIU",
-    role: "Founder · Lead Developer",
-    period: "Active",
+    role: "Lead Developer",
+    period: "",
     location: "axiu.space",
     bullets: [
       "Architected and deployed high-performance web apps and custom MVPs with React, Next.js and Python backends.",
@@ -28,7 +28,7 @@ const exp = [
 ];
 
 const certs = [
-  { y: "2026", t: "Second Runner-Up — Pitch Premier", o: "IIT Kanpur · Techkriti'26" },
+  { y: "2026", t: "Fourth Runner-Up — Pitch Premier", o: "IIT Kanpur · Techkriti'26" },
   { y: "2026", t: "Techkriti Innovation Challenge", o: "IIT Kanpur — Final track participant" },
   { y: "—", t: "Full-Stack Development & Technical Leadership", o: "AXIU" },
   { y: "2024", t: "MERN Fullstack Training & Internship", o: "Pegasus Technologies" },
@@ -70,7 +70,7 @@ export function Experience() {
                   {e.org}
                 </div>
                 <div style={{ fontFamily: "var(--font-mono)" }} className="text-[11px] uppercase tracking-[0.2em] text-secondary-foreground/60">
-                  {e.period} · {e.location}
+                  {e.period}{e.period && " · "}{e.location}
                 </div>
               </div>
               <div style={{ fontFamily: "var(--font-serif)" }} className="italic text-xl mb-5 text-secondary-foreground/80">
